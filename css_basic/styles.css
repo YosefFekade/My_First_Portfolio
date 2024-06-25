@@ -3,10 +3,14 @@ body main{
 }
 body{
     flex-direction: column;
+    background-color: #FDFFD2;
+    text-shadow: #06D001;
+    color: #373A40;
 }
 main{
     flex-direction: row;
     flex: auto;
+    background-color: #667BC6;
 }
 article{
     overflow-y: auto;
@@ -15,4 +19,5 @@ article{
 aside{
     overflow-y: auto;
     flex: 1;
+    background-color: #FFB4C2;
 }
